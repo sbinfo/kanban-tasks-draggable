@@ -1,0 +1,25 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@nuxt/fonts": "^0.8.0",
+		"@nuxt/ui": "^2.18.4",
+		"@pinia/nuxt": "^0.5.4",
+		"nuxt": "^3.13.0",
+		"uid": "^2.0.2",
+		"vue": "latest",
+		"vue-router": "latest",
+		"vuedraggable": "^4.1.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.2"
+	}
+}
